@@ -1,0 +1,46 @@
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  .return_container{
+    color: black;
+    margin:50px;
+    
+  }
+
+}
+
+
+.container_card{
+    width: 100%;
+    color: black;
+    font-size:1rem;
+    line-height: 40px;
+
+    @media all and (min-width:768px){
+  
+    }
+
+}
+
+.weather_image{
+  width: 45%;
+
+
+  @media all and (min-width:768px){
+    width: 15%;
+
+  }
+}
+
+.weather_temp{
+  font-size:2.5rem;
+}
+
+.weather_title{
+  font-size:1.5rem;
+  padding-bottom: 10px;
+}
