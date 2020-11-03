@@ -62,7 +62,7 @@ const Home = () => {
       </div>
       </main>
        <footer className="home_footer">
-         <p>Desarrollo y fotografía with<span role="img" aria-label="heart"> 💚 by dchiki </span>2020</p>
+         <p>Made with<span role="img" aria-label="heart"> 📷 and 💚 by dchiki </span></p>
        </footer>
     </div>
   );
