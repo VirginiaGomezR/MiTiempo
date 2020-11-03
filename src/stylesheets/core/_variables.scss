@@ -5,7 +5,20 @@ $desktop: 1024px;
 
 /* FONT SIZES */
 
+$font-regular: 16;
+$font-small: rem(14);
+$font-medium: rem(20);
+$font-large: rem(30);
+$font-extra-large: rem(45);
+
 
 /* FONT FAMILY */
 
+$font-primary:'Rubik', sans-serif;
+
+
 /* COLORS */
+
+$color-primary: white;
+$color-secondary: black;
+$color-tertiary: grey;

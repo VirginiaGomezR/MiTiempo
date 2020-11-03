@@ -1,9 +1,10 @@
 .filter_message{
-    color:white;
-    font-size: 10px;
+    font-size: $font-small;
     font-weight: bold;
+    color:$color-secondary;
+    font-family: $font-primary;
   
       @include tablet {
-          font-size: 20px;
+          font-size: $font-large;
         }
 }

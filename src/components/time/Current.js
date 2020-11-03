@@ -8,13 +8,11 @@ const Current = () => {
   const [cityInput, setUserInput]= useState (''); //Filtro
 
   return (
-    <header className="header">
     <ListWithFilter 
     cityList={cityList} 
     setCityList={setCityList} 
     cityInput={cityInput} 
     setUserInput={setUserInput}/>
-    </header>
   );
 }
 

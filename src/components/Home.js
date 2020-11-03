@@ -43,17 +43,17 @@ const Home = () => {
 
   return (
     <div className="home">
-      <header className="header">
-        <h1 className="header_title">A mal tiempo, actitud</h1>
-      <nav className="menu">
-        <ul className="menu_list">
+      <header className="home_header">
+        <h1 className="home_header--title">A mal tiempo, actitud</h1>
+      <nav className="home_menu">
+        <ul className="home_menu--list">
           <li>
           <Link className="current" to="/current">Mi tiempo</Link>
           </li>
         </ul>
       </nav>
       </header>
-     <main className="page">  
+     <main className="home_page">  
      <div className="simple-trans-main"  onClick={onClick}>
       {transitions.map(({ item, props, key }) => {
         const Page = pages[item]
@@ -61,8 +61,8 @@ const Home = () => {
       })}
       </div>
       </main>
-       <footer className="footer">
-         <p>dchiki<span role="img" aria-label="heart"> 💚 </span>2020</p>
+       <footer className="home_footer">
+         <p>Desarrollado by dchiki with<span role="img" aria-label="heart"> 💚 </span>2020</p>
        </footer>
     </div>
   );

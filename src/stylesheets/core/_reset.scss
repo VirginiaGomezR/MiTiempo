@@ -359,6 +359,7 @@
     padding: 0px;
     -moz-appearance: none;
     appearance: none;
+    text-align: center;
   }
   
   input {
@@ -367,18 +368,6 @@
   button {
     border: none;
     background: none;
-  }
-
-  * {
-    box-sizing: border-box;
-    list-style-type: none;
-    text-decoration: none;
-    color: inherit;
-    list-style-type: none;
-    padding: 0px;
-    text-align: center;
-    margin:0px;
-    
   }
   
   a:link {

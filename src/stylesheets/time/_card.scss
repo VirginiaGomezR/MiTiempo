@@ -4,10 +4,11 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  font-family: $font-primary;
 
   .return_container{
-    color: black;
-    margin:50px;
+    color: $color-secondary;
+    margin: rem(50);
     
   }
 
@@ -16,14 +17,13 @@
 
 .container_card{
     width: 100%;
-    color: black;
-    font-size:1rem;
-    line-height: 40px;
+    color: $color-secondary;
+    font-size:$font-regular;
+    line-height: rem(40);
 }
 
 .weather_image{
   width: 45%;
-
 
   @include tablet {
     width: 15%;
@@ -32,10 +32,10 @@
 }
 
 .weather_temp{
-  font-size:2.5rem;
+  font-size:$font-large;
 }
 
 .weather_title{
-  font-size:1.5rem;
-  padding-bottom: 10px;
+  font-size:$font-medium;
+  padding-bottom: rem(10);
 }
