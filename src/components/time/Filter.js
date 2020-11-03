@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../stylesheets/time/Filter.scss';
+
 
 const Filter = ({cityInput, handleUserInput}) =>{
     return(

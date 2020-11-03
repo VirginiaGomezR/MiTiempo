@@ -1,27 +1,8 @@
-* {
-  box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
-  color: inherit;
-  list-style-type: none;
-  padding: 0px;
-  text-align: center;
-  margin:0px;
-  
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
+@import 'core/reset';
+@import 'core/variables';
+@import 'core/mixins';
+@import 'core/functions';
+@import './home.scss';
+@import 'time/listWithFilter.scss';
+@import 'time/filter.scss';
+@import 'time/card.scss';

@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from 'react'
 import {Link} from 'react-router-dom';
-import '../stylesheets/Home.scss';
 import {useTransition, animated} from 'react-spring';
 import  January from '../images/january.JPG';
 import  February from '../images/february.JPG';

@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Filter from './Filter';
 import List from './List';
-import '../../stylesheets/time/ListWithFilter.scss';
 import {getLocationByName, getDataMadrid} from '../../services/api.js';
 
 const ListWithFilter = ({cityList, setCityList, cityInput, setUserInput}) =>{

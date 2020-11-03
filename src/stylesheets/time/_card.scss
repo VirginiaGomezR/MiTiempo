@@ -19,18 +19,13 @@
     color: black;
     font-size:1rem;
     line-height: 40px;
-
-    @media all and (min-width:768px){
-  
-    }
-
 }
 
 .weather_image{
   width: 45%;
 
 
-  @media all and (min-width:768px){
+  @include tablet {
     width: 15%;
 
   }
