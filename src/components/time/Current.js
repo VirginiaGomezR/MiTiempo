@@ -4,14 +4,14 @@ import ListWithFilter from './ListWithFilter';
 
 const Current = () => {
 
-  const [characterList, setCharacterList] = useState ({}); 
+  const [cityList, setCityList] = useState ({}); 
   const [cityInput, setUserInput]= useState (''); //Filtro
 
   return (
     <header className="header">
     <ListWithFilter 
-    characterList={characterList} 
-    setCharacterList={setCharacterList} 
+    cityList={cityList} 
+    setCityList={setCityList} 
     cityInput={cityInput} 
     setUserInput={setUserInput}/>
     </header>
