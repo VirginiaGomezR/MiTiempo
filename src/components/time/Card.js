@@ -15,9 +15,9 @@ return(
         <li className="weather_title">{data.title}, {data.pais}</li>
         <img className="weather_image" src={data.image} alt="icono"></img>
         <li className="weather_temp">{data.temp} <span>Cº</span></li>
-        <li><i class="fas fa-wind"></i> {data.wind} <span>Km/h</span></li>
-        <li><i class="fas fa-umbrella"></i> {data.precip} <span>mm</span></li>
-        <li><i class="fas fa-tint"></i> {data.humidity} <span>%</span></li>
+        <li><i className="fas fa-wind"></i> {data.wind} <span>Km/h</span></li>
+        <li><i className="fas fa-umbrella"></i> {data.precip} <span>mm</span></li>
+        <li><i className="fas fa-tint"></i> {data.humidity} <span>%</span></li>
     </ul>
     </div>
     </div>
